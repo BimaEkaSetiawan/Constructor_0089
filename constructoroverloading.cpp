@@ -13,3 +13,8 @@ class mahasiswa{
     mahasiswa(string);
     mahasiswa(int, string iNama);
 };
+
+mahasiswa::mahasiswa(){}
+mahasiswa::mahasiswa(int iNama){
+    nim = iNama;
+}
