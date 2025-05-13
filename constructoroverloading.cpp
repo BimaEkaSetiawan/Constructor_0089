@@ -40,4 +40,6 @@ int main(){
     cout << "mahasiswa 1:"; mhs1.cetak();
     cout << "mahasiswa 2:"; mhs2.cetak();
     cout << "mahasiswa 3:"; mhs3.cetak();
+
+    return 0;
 }
