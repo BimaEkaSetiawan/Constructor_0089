@@ -11,7 +11,7 @@ class mahasiswa{
     mahasiswa();
     mahasiswa(int);
     mahasiswa(string);
-    mahasiswa(int, string iNama);
+    mahasiswa(int iNim, string iNama);
 };
 
 mahasiswa::mahasiswa(){}
@@ -24,4 +24,9 @@ mahasiswa::mahasiswa(string iNama){
 mahasiswa::mahasiswa(int iNim, string  iNama){
     nim = iNim;
     nama = iNama;
+}
+
+void mahasiswa:: cetak (){
+    cout << endl << "NIm =" << nim << endl;
+    cout <<"nama = " << nama << endl;
 }
