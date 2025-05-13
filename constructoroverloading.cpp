@@ -30,3 +30,9 @@ void mahasiswa:: cetak (){
     cout << endl << "NIm =" << nim << endl;
     cout <<"nama = " << nama << endl;
 }
+
+int main(){
+    mahasiswa mhs1(102030);
+    mahasiswa mhs2("andi");
+    mahasiswa mhs3(010203, "santi");
+}
